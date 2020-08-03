@@ -28,7 +28,7 @@
 
 		<dependency>
 			<groupId>com.ccbc</groupId>
-			<artifactId>ccbc-common-pojo</artifactId>
+			<artifactId>ccbc-common</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 

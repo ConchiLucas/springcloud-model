@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ccbc-server" />
         <module name="ccbc-common-pojo" />
+        <module name="ccbc-common" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ccbc-common" options="-parameters" />
       <module name="ccbc-common-pojo" options="-parameters" />
       <module name="ccbc-server" options="-parameters" />
     </option>
