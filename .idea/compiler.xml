@@ -10,6 +10,7 @@
         <module name="ccbc-service-didi" />
         <module name="ccbc-server" />
         <module name="ccbc-common" />
+        <module name="ccbc-common-tag" />
         <module name="ccbc-common-pojo" />
         <module name="ccbc-controller" />
       </profile>
@@ -25,6 +26,7 @@
       <module name="ccbc-client-didi-api" options="-parameters" />
       <module name="ccbc-common" options="-parameters" />
       <module name="ccbc-common-pojo" options="-parameters" />
+      <module name="ccbc-common-tag" options="-parameters" />
       <module name="ccbc-controller" options="-parameters" />
       <module name="ccbc-server" options="-parameters" />
       <module name="ccbc-service-didi" options="-parameters" />

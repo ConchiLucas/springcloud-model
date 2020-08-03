@@ -10,9 +10,9 @@
 	</parent>
 
 	<groupId>com.ccbc</groupId>
-		<artifactId>ccbc-common-pojo</artifactId>
+		<artifactId>ccbc-common-tag</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<name>ccbc-common-pojo</name>
+		<name>ccbc-common-tag</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -21,10 +21,7 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>com.ccbc</groupId>
-			<artifactId>ccbc-common-tag</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+
+
 	</dependencies>
 </project>

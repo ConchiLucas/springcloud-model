@@ -9,7 +9,7 @@ public class LoanApplyServiceImpl implements LoanApplyService{
 
     @Override
     public DdResp checkValidity(LoanApplyReq loanApplyReq) {
-        System.out.println("aaaa");
+
         return null;
     }
 }

@@ -24,6 +24,7 @@
         <module>ccbc-server</module>
         <module>ccbc-common</module>
         <module>ccbc-common-pojo</module>
+        <module>ccbc-common-tag</module>
         <module>ccbc-controller</module>
 
 
@@ -65,6 +66,11 @@
             <version>2.9.2</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.62</version>
+        </dependency>
 
     </dependencies>
 

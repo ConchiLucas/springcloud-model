@@ -8,4 +8,6 @@ public interface LoanApplyService {
     public DdResp checkValidity(LoanApplyReq loanApplyReq);
 
 
+
+
 }
