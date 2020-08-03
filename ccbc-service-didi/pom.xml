@@ -10,9 +10,9 @@
 	</parent>
 
 	<groupId>com.ccbc</groupId>
-		<artifactId>ccbc-client-didi</artifactId>
+		<artifactId>ccbc-service-didi</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<name>ccbc-client-didi</name>
+		<name>ccbc-service-didi</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -34,7 +34,7 @@
 
 		<dependency>
 			<groupId>com.ccbc</groupId>
-			<artifactId>ccbc-client-didi-api</artifactId>
+			<artifactId>ccbc-service-didi-api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 

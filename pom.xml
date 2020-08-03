@@ -19,11 +19,12 @@
     </parent>
 
     <modules>
-        <module>ccbc-client-didi</module>
-        <module>ccbc-client-didi-api</module>
+        <module>ccbc-service-didi</module>
+        <module>ccbc-service-didi-api</module>
         <module>ccbc-server</module>
         <module>ccbc-common</module>
         <module>ccbc-common-pojo</module>
+        <module>ccbc-controller</module>
 
 
     </modules>

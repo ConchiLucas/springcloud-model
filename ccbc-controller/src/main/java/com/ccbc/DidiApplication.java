@@ -1,5 +1,7 @@
 package com.ccbc;
 
+import com.ccbc.didi.DidiService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -28,12 +30,6 @@ public class DidiApplication extends SpringBootServletInitializer{
 		return application.sources(DidiApplication.class);
 	}
 
-	@Value("${server.port}")
-	String port;
 
-	@RequestMapping("/hi")
-	public String home(@RequestParam(value = "name", defaultValue = "forezp") String name) {
-		return "hi " + name + " ,i am from port:" + port;
-	}
 
 }
