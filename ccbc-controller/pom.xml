@@ -34,7 +34,7 @@
 
 		<dependency>
 			<groupId>com.ccbc</groupId>
-			<artifactId>ccbc-common-tag</artifactId>
+			<artifactId>ccbc-common-util</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
@@ -43,6 +43,8 @@
 			<artifactId>ccbc-service-didi</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+
+
 
 	</dependencies>
 

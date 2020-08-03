@@ -2,7 +2,7 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/ccbc-common-pojo/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ccbc-common-tag/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ccbc-common-util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ccbc-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ccbc-controller/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ccbc-controller/src/main/java/com/ccbc/DidiApplication.java" charset="UTF-8" />

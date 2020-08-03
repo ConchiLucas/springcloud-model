@@ -21,10 +21,6 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>com.ccbc</groupId>
-			<artifactId>ccbc-common-tag</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+
 	</dependencies>
 </project>

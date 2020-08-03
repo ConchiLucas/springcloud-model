@@ -34,6 +34,12 @@
 
 		<dependency>
 			<groupId>com.ccbc</groupId>
+			<artifactId>ccbc-common-util</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.ccbc</groupId>
 			<artifactId>ccbc-service-didi-api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>

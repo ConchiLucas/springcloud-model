@@ -24,7 +24,7 @@
         <module>ccbc-server</module>
         <module>ccbc-common</module>
         <module>ccbc-common-pojo</module>
-        <module>ccbc-common-tag</module>
+        <module>ccbc-common-util</module>
         <module>ccbc-controller</module>
 
 
@@ -34,7 +34,11 @@
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>Hoxton.SR6</spring-cloud.version>
+        <mysql_driver_version>5.1.38</mysql_driver_version>
+        <commons_lang3_version>3.4</commons_lang3_version>
     </properties>
+
+
 
     <dependencies>
         <dependency>
@@ -71,6 +75,35 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.62</version>
         </dependency>
+
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql_driver_version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+            <version>4.2.4.RELEASE</version>
+        </dependency>
+
 
     </dependencies>
 
