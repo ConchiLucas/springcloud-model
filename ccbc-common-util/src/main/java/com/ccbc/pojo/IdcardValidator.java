@@ -1,4 +1,4 @@
-package com.ccbc.util;
+package com.ccbc.pojo;
 
 import java.util.Calendar;
 import java.util.HashMap;
