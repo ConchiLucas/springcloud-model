@@ -16,4 +16,7 @@ public class CcbcServerApplication {
 		SpringApplication.run(CcbcServerApplication.class, args);
 	}
 
+
+
+
 }

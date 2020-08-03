@@ -20,6 +20,8 @@
 
     <modules>
         <module>ccbc-server</module>
+        <module>ccbc-common-pojo</module>
+
 
     </modules>
 
@@ -41,6 +43,11 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
 
 
 
