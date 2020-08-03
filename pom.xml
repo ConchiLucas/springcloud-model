@@ -20,6 +20,7 @@
 
     <modules>
         <module>ccbc-client-didi</module>
+        <module>ccbc-client-didi-api</module>
         <module>ccbc-server</module>
         <module>ccbc-common</module>
         <module>ccbc-common-pojo</module>
