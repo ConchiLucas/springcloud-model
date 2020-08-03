@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ccbc-server" />
+        <module name="ccbc-client-didi" />
         <module name="ccbc-common-pojo" />
         <module name="ccbc-common" />
       </profile>
@@ -14,6 +15,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ccbc-client-didi" options="-parameters" />
       <module name="ccbc-common" options="-parameters" />
       <module name="ccbc-common-pojo" options="-parameters" />
       <module name="ccbc-server" options="-parameters" />

@@ -19,6 +19,7 @@
     </parent>
 
     <modules>
+        <module>ccbc-client-didi</module>
         <module>ccbc-server</module>
         <module>ccbc-common</module>
         <module>ccbc-common-pojo</module>
