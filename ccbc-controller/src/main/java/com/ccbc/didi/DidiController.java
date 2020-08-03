@@ -1,10 +1,9 @@
 package com.ccbc.didi;
 
+import com.ccbc.pojo.req.LoanApplyReq;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -12,15 +11,13 @@ public class DidiController {
 
 
     @Autowired
-    private DidiService didiService;
+    private LoanApplyService loanApplyService;
 
-    @Value("${server.port}")
-    String port;
 
-    @RequestMapping("/hi")
-    public String home(@RequestParam(value = "name", defaultValue = "forezp") String name) {
-        didiService.execute();
-        return "hi " + name + " ,i am from port:" + port;
+    @RequestMapping("/ecpD/loanApply")
+    public String loanApply(@RequestBody LoanApplyReq loanApplyReq){
+        loanApplyService.checkValidity(loanApplyReq);
+        return "success";
     }
 
 }
