@@ -1,6 +1,5 @@
 package com.ccbc.util;
 
-import com.ccbc.pojo.common.ErrorCodeConstant;
 import com.ccbc.pojo.resp.ApplyResp;
 import lombok.extern.slf4j.Slf4j;
 

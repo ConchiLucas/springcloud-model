@@ -2,7 +2,7 @@ package com.ccbc.pojo.annotation;
 
 import java.lang.annotation.*;
 
-@Target({ElementType.PARAMETER,ElementType.FIELD})
+@Target({ElementType.PARAMETER})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 public @interface NoNull {

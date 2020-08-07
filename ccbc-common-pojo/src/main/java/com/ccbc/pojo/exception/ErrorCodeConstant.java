@@ -1,4 +1,4 @@
-package com.ccbc.pojo.common;
+package com.ccbc.pojo.exception;
 
 public class ErrorCodeConstant {
 

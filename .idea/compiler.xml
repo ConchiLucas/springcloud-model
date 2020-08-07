@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ccbc-service-didi-api" />
+        <module name="ccbc-common-pojo" />
         <module name="ccbc-service-didi" />
         <module name="ccbc-server" />
+        <module name="ccbc-service-didi-api" />
         <module name="ccbc-common-util" />
         <module name="ccbc-common" />
-        <module name="ccbc-common-pojo" />
+        <module name="ccbc-common-zkredis" />
         <module name="ccbc-controller" />
       </profile>
     </annotationProcessing>
@@ -27,6 +28,7 @@
       <module name="ccbc-common" options="-parameters" />
       <module name="ccbc-common-pojo" options="-parameters" />
       <module name="ccbc-common-util" options="-parameters" />
+      <module name="ccbc-common-zkredis" options="-parameters" />
       <module name="ccbc-controller" options="-parameters" />
       <module name="ccbc-server" options="-parameters" />
       <module name="ccbc-service-didi" options="-parameters" />

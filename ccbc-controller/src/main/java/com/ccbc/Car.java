@@ -1,16 +1,16 @@
 package com.ccbc;
 
+import com.ccbc.pojo.aop.notnull.NotNull;
 import lombok.Getter;
-import lombok.NonNull;
 import lombok.Setter;
 
 @Setter
 @Getter
 public class Car {
 
-    @NonNull
+    @NotNull
     private String name;
-    @NonNull
+    @NotNull
     private String password;
 
 }

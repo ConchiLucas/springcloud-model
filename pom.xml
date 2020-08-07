@@ -25,6 +25,7 @@
         <module>ccbc-common</module>
         <module>ccbc-common-pojo</module>
         <module>ccbc-common-util</module>
+        <module>ccbc-common-zkredis</module>
         <module>ccbc-controller</module>
 
 
@@ -44,6 +45,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
 
         <dependency>
