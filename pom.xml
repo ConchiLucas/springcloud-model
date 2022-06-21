@@ -35,7 +35,7 @@
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>Hoxton.SR6</spring-cloud.version>
-        <mysql_driver_version>5.1.38</mysql_driver_version>
+        <mysql_driver_version>8.0.28</mysql_driver_version>
         <commons_lang3_version>3.4</commons_lang3_version>
     </properties>
 
